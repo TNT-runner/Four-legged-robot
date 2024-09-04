@@ -18,6 +18,6 @@ int main(void)
     led_init();
     while(1) {
         gpio_bit_toggle(LED_PORT,LED_PIN);
-        delay_1ms(250);
+        delay_1ms(1000);
     }
 }
